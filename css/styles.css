@@ -5,6 +5,7 @@ VARIABLES
 :root {
   --colour-white: #f5f5f5;
   --background-color-dark: #333;
+  --colour-highlight: #ec5538;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -53,10 +54,29 @@ body {
   height: 100vh;
 }
 
+.background {
+  padding: 8rem 3rem;
+}
+
+
+
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 HEADER
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.header__title {
+  color: var(--colour-highlight);
+}
+
+.header__image {
+  width: 80%;
+}
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
